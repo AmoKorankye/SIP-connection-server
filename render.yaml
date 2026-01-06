@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sip-ai-agent-voice-call
+    runtime: python
+    pythonVersion: 3.11
+    startCommand: python app.py
+    port: 4573
+    envVars:
+      - key: PORT
+        value: 4573
