@@ -95,7 +95,6 @@ def handle_incoming_call(client_socket):
 
 print(f"Starting FastAGI Server...")
 print(f"   Listening on: {AGI_HOST}:{AGI_PORT}")
-print(f"   Asterisk will connect to: 102.176.75.169:{AGI_PORT}\n")
 sys.stdout.flush()
 
 try:
